@@ -32,9 +32,9 @@ We use `DecisionTreeClassifier` from `sklearn.tree` and perform hyperparameter t
 
 ### Hyperparameters Tuned:
 
-- `criterion`: `['gini', 'entropy']`
-- `max_depth`: `[None, 2, 4, 6]`
-- `min_samples_split`: `[2, 5]`
+- `criterion`: `['gini', 'entropy','log_loss]`
+- `max_depth`: `[1,2,3,4,5]`
+- `splitter`:`['best','random']`
 - `max_features`: `[None, 'sqrt', 'log2']`
 
 ## 📈 Results
